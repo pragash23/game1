@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+#game {
+  position: relative;
+
+  width: 100%;
+  height: 80vh;
+
+  background: url("img/back.jpg");
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#ground {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+
+  width: 100vw;
+  height: 100px;
+
+  background: url("img/ground.jpg");
+  background-repeat: repeat-x;
+  background-size: contain;
+}
+
+#player {
+  position: absolute;
+  bottom: 400px;
+  left: 400px;
+
+  width: 100px;
+  height: 48px;
+
+  background: url("img/harry-potter-png-2.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  transition: 2s;
+  transition-timing-function: ease-in;
+}
+
+.eagle {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 60px;
+  height: 60px;
+
+  background: url("img/creature\ 1.png");
+  background-size: cover;
+}
+
+
+.princess {
+  position: absolute;
+  bottom: 100px;
+  right: 10px;
+
+  width: 60px;
+  height: 60px;
+
+  background: url("img/mario.png");
+  background-size: cover;
+}
+
+#boutonstart {
+  padding: 10px 30px;
+  background: #000;
+  border: 1px solid #fff;
+  color: #ffff;
+  font-size: 18px;
+}
+
+#popup {
+  display: none;
+  color: #fff;
+  font-size: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+}
+
+#btn-container {
+  position: absolute;
+  left: 50px;
+  top: 50px;
+}
+
+#myaudio {
+  position: absolute;
+  left: 180px;
+  top: 50px;
+}
